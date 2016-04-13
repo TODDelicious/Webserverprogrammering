@@ -1,16 +1,69 @@
+body{
+	margin: 0px;
+	background-image: url("äcklig.jpg");
+	background-size: 100%;
+}
+
+
 .header {
 	background-color: red;
 	text-align: center;
 }
 
 .meny1 {
-	
+	background-color: red;
+	width: 33%;
+	text-align: center;
+	margin-top: -21px;
 }
 
 .meny2 {
-	
+	background-color: red;
+	width: 33%;
+	text-align: center;
+	margin-left: 33%;
+	margin-top: -59px;
 }
 
 .meny3 {
-	
+	background-color: red;
+	width: 34%;
+	text-align: center;
+	margin-left: 66%;
+	margin-top: -58px;
+}
+
+.meny1:hover {
+	background-color: orange;
+}
+
+.meny2:hover {
+	background-color: orange;
+}
+
+.meny3:hover {
+	background-color: orange;
+}
+
+.fotter {
+	width: 100%;
+	background-color: red;
+	text-align: center;
+	font-size: 15px;
+}
+
+.text {
+	background-color: red;
+	font-size: 20px;
+}
+
+.login_bar {
+	background-color: red;
+	margin-top: -25px;
+	text-align: right;
+}
+
+.login_text {
+	margin-right: 25px;
+	font-size: 25px;
 }

@@ -1,0 +1,7 @@
+1. 
+SELECT Orders.Order_number,Customers.First_name,Customers.Last_Name FROM Orders JOIN Customers ON Customers.Customer_number=Orders.Customer_number;
+
+2. 
+SELECT Products.Product_name,SUM(Order_details.Quantity) FROM Order_details JOIN Products ON Order_details.Product_number=Products.Product_number GROUP BY Order_details.Product_number;
+
+3. 
