@@ -76,39 +76,36 @@ body{
 
 
 /* css för webshopen */
-.shop {
-	width: 350px;
+.itemContainer {
 	background-color: red;
-	height: 300px;
-	float: left;
-	margin-right: 45px;
-	margin-left: 45px;
-	margin-top: 50px;
+	width: 30%
 }
 
-.Shop_text {
-	text-align: center;
+.itemPicture {
+	
 }
 
-.Shop_picture {
-	margin-left: 9%;
+.itemName {
+	font-size: 30px;
+	background-color: blue;
 }
 
-.Buy_text {
-	text-align: center;
+.itemInfoBox {
+	font-size: 15px;
+	background-color: green;
+}
+
+.itemButtonContainer {
+	font-size: 20px;
+	background-color: pink;
+}
+
+.itemPrice {
+	background-color: purple;
+}
+
+.itemBuyButton {
 	background-color: white;
-	width: 50px;
-	margin-left: 150px;
-}
-
-.Buy_text:hover {
-	background-color: orange;
-}
-
-.pictures {
-	width: 250px;
-	height: 150px;
-	margin-left: 50px;
 }
 
 
