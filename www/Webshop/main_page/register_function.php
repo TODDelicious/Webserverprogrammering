@@ -24,6 +24,6 @@ $id = mysqli_fetch_array($result)['customer_id'];
 $query = "INSERT INTO login VALUES (".$id.",Password('".$_POST['Password']."'));";
 mysqli_query($dbc,$query);
 
-header('Location: main.php?page=login')
+header('Location: main.php?page=login');
 
 ?>

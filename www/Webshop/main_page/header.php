@@ -7,6 +7,7 @@
 		<div class="header">
 			<h1>RECYCLE.SE</h1>
 		</div>
+		<div></div>
 	</head>
 
 	<body>

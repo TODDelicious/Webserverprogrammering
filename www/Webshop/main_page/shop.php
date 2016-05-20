@@ -25,8 +25,10 @@ while($row=mysqli_fetch_array($result)){
 			<div class="itemName"><p>'.$row['Product_name'].' </p></div>
 			<div class="itemInfoBox"><p>'.$row['Product_description'].'</p></div>
 			<div class="itemButtonContainer">
-				<div class="itemPrice"><p>'.$row['Product_price'].' </p></div>
-				<a href="#lask"><div class="itemBuyButton"><p> Köp </p></div></a>
+			<div class="itemPrice"><p>'.$row['Product_price'].' kr/st </p></div>
+			<a href="#lask">
+				<div class="itemBuyButton"><p> Köp </p></div>
+			</a>
 			</div>
 		</div>
 	';

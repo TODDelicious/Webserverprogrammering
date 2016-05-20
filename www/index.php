@@ -1,19 +1,57 @@
 <?php
-	require_once('../mysql_connect.php');
-	//Gör en anslutning till batabasen
 
-	$query = 'SELECT * FROM Cities WHERE Population>=5000000 ORDER BY Population DESC;';
-	//Selectar datdan från tabellen i mysql servern
+session_start();
 
-	$result = mysqli_query($dbc, $query);
+	$page = @$_GET['page'];
 
-	echo '<table border="solid">';
-	//Lägger in så att tabellen får kanetr mellan alla celler
-	while($row = mysqli_fetch_array($result)){
-		echo '<tr><td>' . ucfirst($row['City']) . ' </td> <td> ' . $row['Population'] . '</td></tr>';
-	}
-	//En loop som skriver ut städer i storleksårdning från störst (med över 5 000 000 invånare)
 
-	echo '</table>';
-	
 ?>
+
+<!DOCTYPE html>
+<head>
+
+	<title> Titel </title>
+	<link rel="stylesheet" type="text/css" href="/CSS/css.css" />	
+	<link rel="stylesheet" type="text/css" href="/CSS/CSScart.css" />	
+
+	
+</head>
+
+<body>
+
+	<div id="wrapper">
+		
+		<header>
+		
+			<?php include('templates/header.php'); ?>
+			
+		</header>
+		
+		<nav>
+		
+			<?php include('templates/navigation.php'); ?>
+			
+		</nav>
+		
+		
+		<main>
+		
+			<?php 
+			
+				if(!empty($page)){
+					require("templates/$page.php");
+				}else{
+					require("templates/index.php");
+				}
+				
+			?>
+		</main>
+			
+		
+		
+	</div><!-- #wrapper -->
+	
+</body>
+
+</html>
+
