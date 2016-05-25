@@ -10,9 +10,4 @@ else{
 	header('Location: main.php?page=login');
 }
 
-
-
-
-
-
 ?>

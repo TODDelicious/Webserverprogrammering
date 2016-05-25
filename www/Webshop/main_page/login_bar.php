@@ -15,7 +15,7 @@ session_start();
 					if (!isset($_SESSION['loggedIn'])) {		
 				?>
 					<a href="main.php?page=Shopcart">
-					Kundvagn
+					Cart
 					</a> / 
 					<a href="main.php?page=login">
 					Login
