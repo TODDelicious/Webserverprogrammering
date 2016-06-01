@@ -5,6 +5,10 @@ body{
 	background-size: 100%;
 }
 
+main{
+	min-height: 454px;
+}
+
 
 .header {
 	background-color: red;
@@ -55,6 +59,7 @@ body{
 	text-align: center;
 	font-size: 15px;
 	margin-bottom: -15px;
+	bottom: 0px;
 }
 
 .starttext {
@@ -131,7 +136,7 @@ table{
 	border:3px solid black;
 	border-radius:20px 200px 20px 20px;
 	background-color:white;
-	box-shadow:9px -1px gray;
+	box-shadow:9px -1px red;
 }
 
 td{

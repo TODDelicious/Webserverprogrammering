@@ -1,4 +1,5 @@
 <html>
+	<!-- bara html för headern -->
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="main.css">
@@ -11,7 +12,7 @@
 	</head>
 
 	<body>
-		
+		<!-- nav bar -->
 		<div class="banner">
 			<a href="main.php">
 				<div class="meny1">

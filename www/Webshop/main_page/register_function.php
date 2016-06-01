@@ -3,7 +3,7 @@
 require_once('connect.php');
 // ger variabel $dbc
  
- 
+ //När man skapar ett konto skrivs din mail, ditt namn och så vidare i databasen.
  $query = 'INSERT INTO users(Email, First_name, Last_name, Social_Security_Number, Adress, Postal_code, Country, Phone_number)
 VALUES("'
 . $_POST['Mail'] .'","'

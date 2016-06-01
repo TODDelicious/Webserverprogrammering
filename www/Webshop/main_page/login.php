@@ -7,6 +7,7 @@
 		<p id="rubrik"> Log in </p>
 		<main>
 			<table>
+				<!-- Ett formulär för att logga in på sidan -->
 				<form action="skicka/index.php" method="post">
 					<tr>
 						<td>

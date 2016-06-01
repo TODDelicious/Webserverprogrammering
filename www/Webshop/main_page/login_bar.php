@@ -11,6 +11,7 @@ session_start();
 	<body>	
 		<div class ="login_bar">
 			<p class ="login_text">
+				<!-- Ifall man inte är inloggad står dessa i login baren -->
 				<?php
 					if (!isset($_SESSION['loggedIn'])) {		
 				?>
@@ -25,6 +26,7 @@ session_start();
 					</a>
 				<?php
 				}
+				// Ifall man inte är inloggad står dessa i login baren
 				else {
 				?>
 					<a href="main.php?page=Shopcart">

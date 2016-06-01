@@ -10,6 +10,7 @@
 				<form action="register_function.php" method="post">
 					<tr>
 						<td>
+							<!-- Ett formulär för att registrera dig på sidan -->
 							<p class="ptag">Mail:</p><p class="color-red">*</p><br>
 							<input type="text" name="Mail" size="30" required>
 						</td>
@@ -22,13 +23,13 @@
 					</tr>
 					<tr>
 						<td>
-							<p class="ptag">Name:</p><p class="color-red">*</p><br>
+							<p class="ptag">First Name:</p><p class="color-red">*</p><br>
 							<input type="text" name="First_name" size="40" required>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<p class="ptag">Sir name:</p><p class="color-red">*</p><br>
+							<p class="ptag">Surname:</p><p class="color-red">*</p><br>
 							<input type="text" name="Last_name" size="40" required>
 						</td>
 					</tr>
