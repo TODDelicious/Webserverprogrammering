@@ -30,7 +30,7 @@ session_start();
 				else {
 				?>
 					<a href="main.php?page=Shopcart">
-						Kundvagn
+						Cart
 					</a> / 
 						Logged in as:
 						<?php
